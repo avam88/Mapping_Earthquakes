@@ -148,6 +148,9 @@ L.geoJSON(data, {
                 console.log(data);
                 return L.circleMarker(latlng);
             },
-        style: styleInfo
+        style: styleInfo,
+        onEachFeature: function(feature, layer) {
+            layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
+        }
         }).addTo(map);
     });
