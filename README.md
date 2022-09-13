@@ -1,1 +1,2 @@
-# Mapping_Earthquakes
+# Mapping Earthquake Position and Severity and Reference to Tectonic Plate Location
+### The purpose of this project is to use CSS, Javascript and HTML to visualize the severity of global earthquakes sourced from USGS gathered data and overlaid on a map of the tectonic plates. To increase functionality and readability (and express proficiency with multiple coding languages) multiple tile layers and base layers were provided. Please reference folder "
